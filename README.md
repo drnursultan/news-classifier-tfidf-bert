@@ -1,22 +1,35 @@
-# Multi-Level News Classifier (TF-IDF vs BERT)
+# 📰 Multi-Level News Classifier — TF-IDF vs BERT
 
-This project compares two text classification approaches on the AG News dataset:
-1. **TF-IDF + Logistic Regression** (classical baseline)
-2. **Fine-tuned BERT (bert-base-uncased)** for contextual understanding.
+This project compares two text classification approaches on the **AG News dataset**:
+1. **Baseline:** TF-IDF + Logistic Regression  
+2. **Advanced:** Fine-tuned BERT (`bert-base-uncased`)  
 
-### Dataset
-AG News dataset (4 categories: World, Sports, Business, Sci/Tech).
+---
 
-### Notebooks
-- `01_eda.html` — Exploratory Data Analysis
-- `02_baseline_tfidf.html` — TF-IDF baseline model
-- `03_bert_finetune_clean.html` — Fine-tuned BERT model
+## 📊 Dataset
+The [AG News dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset) contains **4 categories**:
+- World  
+- Sports  
+- Business  
+- Sci/Tech  
 
-### Results
-| Model | Accuracy | Notes |
-|--------|-----------|-------|
-| TF-IDF | ~90% | Fast but ignores word context |
-| BERT | ~94% | Context-aware, slower but more accurate |
+Each record has a *Title* and *Description* column.
 
-### How to Run
-Run notebooks sequentially in Google Colab or Jupyter. BERT training requires GPU.
+---
+
+## 📁 Project Structure
+
+'''
+news-classifier/
+├── data/
+│   ├── train.csv
+│   └── test.csv
+├── notebooks/
+│   ├── 01_eda.html
+│   ├── 02_baseline_tfidf.html
+│   └── 03_bert_finetune_clean.html
+├── reports/
+│   ├── conf_matrix_tfidf.png
+│   └── conf_matrix_bert.png
+└── README.md
+'''
