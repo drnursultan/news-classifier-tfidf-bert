@@ -72,3 +72,12 @@ news-classifier/
 
 ### BERT Report
 
+          precision    recall  f1-score   support
+
+   World       0.96      0.96      0.96      1900
+  Sports       0.99      0.99      0.99      1900
+Business       0.93      0.91      0.92      1900
+Sci/Tech       0.91      0.94      0.92      1900
+
+accuracy                           0.95      7600
+
