@@ -19,7 +19,7 @@ Each record has a *Title* and *Description* column.
 
 ## 📁 Project Structure
 
-'''
+```
 news-classifier/
 ├── data/
 │   ├── train.csv
@@ -32,4 +32,5 @@ news-classifier/
 │   ├── conf_matrix_tfidf.png
 │   └── conf_matrix_bert.png
 └── README.md
-'''
+```
+
