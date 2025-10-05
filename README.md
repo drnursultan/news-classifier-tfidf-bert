@@ -80,9 +80,10 @@ Business       0.93      0.91      0.92      1900
 Sci/Tech       0.91      0.94      0.92      1900
 
 accuracy                           0.95      7600
+```
 
-
-macro avg       0.95      0.95      0.95      7600
+```
+macro avg          0.95      0.95      0.95      7600
 weighted avg       0.95      0.95      0.95      7600
 ```
 ### TF-IDF Report
@@ -99,7 +100,7 @@ accuracy                           0.92      7600
 ```
 
 ```
-macro avg       0.92      0.92      0.92      7600
+macro avg          0.92      0.92      0.92      7600
 weighted avg       0.92      0.92      0.92      7600
 ````
 ---
