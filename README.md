@@ -21,17 +21,21 @@ Each record has a *Title* and *Description* column.
 
 ```
 news-classifier/
+│
 ├── data/
 │   ├── train.csv
-│   └── test.csv
+│   ├── test.csv
+│
 ├── notebooks/
-│   ├── 01_eda.html
+│   ├── 01_EDA.ipynb
+│   ├── 01_EDA.html
+│   ├── 02_baseline_tfidf.ipynb
 │   ├── 02_baseline_tfidf.html
-│   └── 03_bert_finetune_clean.html
-├── reports/
-│   ├── conf_matrix_tfidf.png
-│   └── conf_matrix_bert.png
-└── README.md
+│   ├── 03_bert_finetune.ipynb
+│
+└── reports/
+    ├── tf_idf_baseline_confusion_matrix.png
+    ├── bert_confusion_matrix.png
 ```
 
 ---
