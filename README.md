@@ -44,7 +44,7 @@ news-classifier/
 
 | Notebook | Description |
 |-----------|--------------|
-| [01_eda.html](notebooks/01_eda.html) | Exploratory Data Analysis |
+| [01_eda.html](notebooks/01_EDA.html) | Exploratory Data Analysis |
 | [02_baseline_tfidf.html](notebooks/02_baseline_tfidf.html) | TF-IDF Baseline Model |
 | [03_bert_finetune_clean.html](notebooks/03_bert_finetune_clean.html) | Fine-Tuned BERT Model |
 
