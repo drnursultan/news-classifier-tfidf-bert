@@ -68,7 +68,7 @@ news-classifier/
 
 | TF-IDF | BERT |
 |:------:|:----:|
-| ![TF-IDF Confusion Matrix](reports/conf_matrix_tfidf.png) | ![BERT Confusion Matrix](reports/conf_matrix_bert.png) |
+| ![TF-IDF Confusion Matrix](reports/tf_idf_baseline_confusion_matrix.png) | ![BERT Confusion Matrix](reports/bert_confusion_matrix.png) |
 
 ---
 
