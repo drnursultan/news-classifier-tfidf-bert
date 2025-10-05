@@ -40,10 +40,6 @@ news-classifier/
 
 ---
 
-### 🔍 HTML Reports
-
-- [01_EDA.html (nbviewer)](https://nbviewer.org/github/drnursultan/news-classifier-tfidf-bert/blob/main/notebooks/01_EDA.html)
-- [02_Baseline_TFIDF.html (nbviewer)](https://nbviewer.org/github/drnursultan/news-classifier-tfidf-bert/blob/main/notebooks/02_baseline_tfidf.html)
 
 ## 📘 Notebooks (clickable)
 
