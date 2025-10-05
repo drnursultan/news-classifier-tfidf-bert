@@ -40,12 +40,17 @@ news-classifier/
 
 ---
 
+### 🔍 HTML Reports
+
+- [01_EDA.html (nbviewer)](https://nbviewer.org/github/drnursultan/news-classifier-tfidf-bert/blob/main/notebooks/01_EDA.html)
+- [02_Baseline_TFIDF.html (nbviewer)](https://nbviewer.org/github/drnursultan/news-classifier-tfidf-bert/blob/main/notebooks/02_baseline_tfidf.html)
+
 ## 📘 Notebooks (clickable)
 
 | Notebook | Description |
 |-----------|--------------|
-| [01_eda.html](notebooks/01_EDA.html) | Exploratory Data Analysis |
-| [02_baseline_tfidf.html](notebooks/02_baseline_tfidf.html) | TF-IDF Baseline Model |
+| [01_EDA.html (nbviewer)](https://nbviewer.org/github/drnursultan/news-classifier-tfidf-bert/blob/main/notebooks/01_EDA.html) | Exploratory Data Analysis |
+| [02_Baseline_TFIDF.html (nbviewer)](https://nbviewer.org/github/drnursultan/news-classifier-tfidf-bert/blob/main/notebooks/02_baseline_tfidf.html) | TF-IDF Baseline Model |
 | [03_bert_finetune_clean.html](notebooks/03_bert_finetune_clean.html) | Fine-Tuned BERT Model |
 
 ---
