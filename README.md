@@ -82,3 +82,45 @@ Sci/Tech       0.91      0.94      0.92      1900
 accuracy                           0.95      7600
 
 ```
+macro avg       0.95      0.95      0.95      7600
+weighted avg       0.95      0.95      0.95      7600
+
+### TF-IDF Report
+
+```
+          precision    recall  f1-score   support
+
+       1       0.94      0.91      0.92      1900
+       2       0.95      0.98      0.97      1900
+       3       0.90      0.88      0.89      1900
+       4       0.89      0.91      0.90      1900
+
+accuracy                           0.92      7600
+```
+macro avg       0.92      0.92      0.92      7600
+weighted avg       0.92      0.92      0.92      7600
+
+---
+
+## 🧠 Summary
+
+| Model | Strength | Weakness |
+|--------|-----------|-----------|
+| **TF-IDF** | Fast, interpretable | Ignores word context |
+| **BERT** | Understands meaning, higher accuracy | Slow to train, needs GPU |
+
+---
+
+## 🚀 How to Run
+
+1. Open the notebook in **Google Colab**  
+2. Mount your Google Drive and load the dataset  
+3. Run `03_bert_finetune.ipynb` (enable GPU)  
+
+To compare, open the HTML reports above for metrics and visual results.
+
+---
+
+## 🏷️ Author
+Developed by **Nursultan Azhimuratov**  
+University of Wisconsin–Madison | Data Science & NLP Projects
